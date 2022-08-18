@@ -1,0 +1,60 @@
+ - Forza elettrica
+   \[F = k \frac{q_1 q_2}{r^2}\]
+   \[F = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r^2}\]
+   \[k = \frac{1}{4\pi \epsilon_0}\text{ e }\epsilon_0 = \frac{1}{4\pi k}\]
+   - in forma vettoriale
+   \[F = k \frac{q_1 q_2}{r^2}\overrightarrow{u}\]
+   con $\overrightarrow{u} = \frac{\overrightarrow{r}}{r}$
+   (versore con direzione e verso di $r$)
+
+ - Campo elettrico
+   - misura quanto viene percepita la carica in un punto, dato un punto:
+     \[E = \frac{F}{q}\]
+     vale a dire $E$ è quanta "scazzacaricaggine" subiresti in proporzione alla
+     carica
+     \[E_{tot} = \sum_i \frac{1}{4\pi \epsilon_0} \frac{q_i}{r_i^2}\]
+     \[E_{tot} = \int_V \frac{1}{4\pi \epsilon_0} \frac{dq}{r^2} dv\]
+     e se definiamo una funzione di densità
+     \[\rho = \frac{dq}{4\pi \epsilon_0}\]
+     \[E_{tot} = \int_V \frac{\rho}{r^2} dv\]
+   - Campo sull'asse di un anello
+     Sarà $\int_{Lunghessa} dE_{segmentino}\ dl\]
+     \[dE_{seg} = \frac{dq_{seg}}{r^2}\]
+     ci interessa solo il campo parallelo all'asse visto che quello perpendicolare
+     all'asse si annulla con se stesso, quindi
+     \[E_{tot} = \cos(qualcosa) \int_{L} roba\ dl\]
+     $\cos(qualcosa)$ fai un disegnino di merda e ti ricavi che vale
+     \[\frac{z}{\sqrt{R^2 + z^2}}\]
+     $E_{seg}$ ,come abbiamo visto, $ = \frac{dq_{seg}}{r^2}$, andando avanti
+     \[E_{seg} =
+     \frac{1}{4\pi \epsilon_0} \frac{dq_{seg}}{r^2} =
+     \frac{1}{4\pi \epsilon_0} \frac{\lambda dl}{R^2 + z^2 \text{(Pitagora)}}\]
+     buttando tutto insieme
+     \[E_{tot} =
+     \frac{z}{\sqrt{R^2 + z^2}}
+     \int_L \frac{1}{4\pi \epsilon_0} \frac{\lambda dl}{R^2 + z^2} dl\]
+     porti fuori qualche costante e
+     \[\frac{x}{\sqrt{R^2 + z^2}}
+     \frac{1}{4\pi \epsilon_0}
+     \frac{1}{R^2 + z^2}
+     \int_L \lambda dl\]
+     \[\frac{z}{(R^2 + z^2)^{\frac{3}{2}}}
+     \frac{1}{4\pi \epsilon_0} \lambda L\]
+     visto che $\lambda \times L \text{ e/o } \int_L \lambda dl$,
+     per definizione di $\lambda$, è pari alla carica dell'anello (chiamiamola $Q$)
+     \[\frac{z}{(R^2 + z^2)^{\frac{3}{2}}}
+     \frac{1}{4\pi \epsilon_0} Q\]
+
+     \textbf{TODO}
+   - Campo sull'asse di un disco pieno
+     Dopo questo abominio
+     [...]
+   - Piano infinito
+     Portando al limite il raggio del disco...
+   - Condensatore
+     Mettine due
+
+ - Meccanica et al et yankovic
+   - $F = ma$, ma $F = qE$, quindi $qE = ma$ (Aristotele mi fa na pippa)      
+     
+     

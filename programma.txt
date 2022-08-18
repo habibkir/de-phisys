@@ -1,0 +1,83 @@
+elettrostatica inizio:
+    carica elettrica, legge coulomb
+    campo elettrico, modulo, direzione, verso, morte, e miracoli
+    distribuzioni continue di cariche
+    distribuzioni discrete di cariche
+    dipolo elettrico
+
+campo elettrico:
+    campo di certe distribuzioni che si spera non devo ricordare (disco pieno, vuoto)
+    lavoro e potenziale elettrostatico
+    legge di gauss
+    abusi e applicazioni di gauss
+    energia elettrostatica
+
+correnti:
+    legge di ohm
+    densità, velocità di deriva, e altre grandezze
+
+magnetismo:
+    campi magnetici statici e forza di Lorentz
+    effetto Hall
+    leggi di Laplace e di Biot-Savart
+    legge di Ampere per i campi magnetici statici
+
+
+ecco i programmi sul sito degli ultimi anni di fisica 2 di ingegneria informatica, dalla pagina del professor del Zanna
+https://www.unifi.it/p-doc2-2022-0-A-2c2a352c342e-0.html
+
+2021-2022:
+Carica elettrica,
+forza di Coulomb,
+campo elettrostatico,
+lavoro e potenziale elettrostatico,
+dipolo elettrico,
+legge di Gauss e applicazioni,
+conduttori e condensatori,
+energia elettrostatica,
+corrente elettrica e leggi di Ohm,
+campi magnetici statici e forza di Lorentz,
+forza e momento magnetici su un circuito,
+effetto Hall,
+leggi di Laplace e di Biot-Savart,
+legge di Ampere per i campi magnetici statici,
+cenni alle proprietà magnetiche della materia,
+campi variabili nel tempo,
+legge di Faraday e applicazioni,
+induttanza,
+energia magnetica,
+corrente di spostamento,
+equazioni di Maxwell,
+onde elettromagnetiche piane,
+trasporto di energia e intensità,
+pressione di radiazione.
+
+2020-2021
+Carica elettrostatica,
+forza di Coulomb,
+campo elettrico
+Lavoro elettrico,
+Potenziale elettrostatico,
+dipolo elettrico
+Legge di Gauss e applicazioni
+Isolanti e dielettrici,
+condensatori.
+Corrente elettrica,
+leggi di Ohm,
+circuiti elettrici elementari,
+leggi di Kirkhhoff
+Proprietà dei campi magnetici statici,
+teorema di equivalenza di Ampere
+Campi magnetici prodotti da correnti elettriche
+Proprietà magnetiche della materia
+Campi elettrici e magnetici variabili nel tempo,
+legge di Faraday,
+correnti di spostamento
+Equazioni di Maxwell,
+onde elettromagnetiche piane,
+trasporto di energia da parte di un'onda elettromagnetica,
+onde emesse da un dipolo oscillante.
+
+2019-2020 (sembra abbastanza uguale a 2020-2021)
+
+2018-2019 (sembra abbastanza uguale a 2020-2021)

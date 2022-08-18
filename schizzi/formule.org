@@ -1,0 +1,12 @@
+ - Carica/ Quantità di carica/ Coulomb
+   - Quanta elettricaggine contenuta
+   - Per definizione di Ampere/intensità sotto
+     $C = A \times s$
+     $q = \int i(t) dt$
+ - Intensità di corrente/ Ampere
+   - "Portata" del flusso di elettroni
+     $A = \frac{C}{s}$
+     $i = \frac{dq}{dt}$, con parziali $i = \frac{\delta q}{\delta t}$
+
+   
+   

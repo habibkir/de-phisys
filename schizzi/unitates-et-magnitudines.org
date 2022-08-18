@@ -1,0 +1,26 @@
+(definizioni di varie grandezze)
+
+ - Coulomb $\iff$ carica ($=q$)
+   - Quantità di carica, quanta elettricaggine contiene 
+   - Data definzioe Ampere di sotto
+     $C = A \times s$
+     $q = \int i(t)\ dt$
+ - Ampere $\iff$ intensità
+   - Quanta carica in tempo, "portata" del flusso di elettroni
+     $A = \frac{C}{s}$
+     $i = \frac{dq}{dt}$ oppure (se parziale) $i = \frac{\delta q}{\delta t}$
+ - Campo elettrico $\iff$ $\frac{N}{C}$(non abbiamo nomi fighi da dargli per ora)
+   - Effetto della carica sullo spazio, quanta elettricaggine è percepita,
+     l'elettricaggine percepita si riflette nel "quanta forza da elettricaggine
+     subirebbe una certa carica?"
+     $E = \frac{F}{q},\
+     F = (k \text{ o } \frac{1}{4\pi \epsilon_0}) \frac{q \times q_{altra}}{r^2}
+     \Rightarrow E = (k \text{ o } \frac{1}{4\pi \epsilon_0})\frac{q_{altra}}{r^2}$
+   - Per distribuzioni discrete
+     $E_{tot} = \sum_i \frac{1}{4\pi \epsilon_0} \frac{q_i}{r_i^2}$
+   - Per distribuzioni continue, buttandoci un paio di limiti
+     $E_{tot} = \int_V \frac{1}{4\pi \epsilon_0} \frac{dq}{r^2} dv$
+     facendo che $\rho = \frac{dq}{4\pi \epsilon_0}$ = \emph{funzione di densità} =
+     (come altre densità) \emph{che è che devo integrare per il volume?.grandezza}
+     si può scrivere in modo un po' più umanese
+     $E_{tot} = \int_V \frac{\rho}{r^2} dv$

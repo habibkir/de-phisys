@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+(Vi sono alcune parentesi extra nelle formule sono puramente per leggibilità, perdonate possibili malintesi)
+
+La forza di Coulomb è una copia spiccicata della gravitazione di Newton, ma per le cariche
+Se ho una particella di carica $q_1$ e una di carica $q_2$ la forza applicata su $q_2$ da $q_1$ sarà
+
+\begin{equation*}
+  \overrightarrow{F_{2,1}} = k_0 \frac{q_1 q_2}{(r_{2,1})^2}\overrightarrow{r_{2,1}}
+\end{equation*}
+
+con $q_1$ e $q_2$ pari alle cariche tra le quali si ha forza, $r$ pari alla distanza tra le due cariche, e $\overrightarrow{r}$ versore tra le due cariche 
+possiamo vedere dalla formula (e dalla seconda legge di Newton) che il di $\overrightarrow{F_{1,2}}$ sarà pari a quello di $\overrightarrow{F_{2,1}}$
+
+Se ho una carica $q_1$ e voglio sapere che forza viene esercitata su di essa da altre due cariche $q_2$ e $q_3$, allora posso  possibile sommarle e ottenere
+\begin{align*}
+  \overrightarrow{F_{tot}} &= \overrightarrow{F_{2,1}} + \overrightarrow{F_{3,1}} \\
+                          &= k_0 \frac{q_1 q_2}{(r_{2,1})^2}\overrightarrow{r_{2,1}} +
+                             k_0 \frac{q_1 q_3}{(r_{3,1})^3}\overrightarrow{r_{3,1}} \\
+                          &= k_0 q_1(\frac{q_2}{(r_{2,1})^2}\overrightarrow{r_{2,1}}+
+                                     \frac{q_3}{(r_{3,1})^2}\overrightarrow{r_{3,1}})
+\end{align*}
+
+La forza esercitata su una $q_1$ può essere quindi espressa come `` $q_1 \times$ qualcosa che dipende solo da come sono messe le due cariche intorno''
+
+questa formulazione si può estendere a $q_1$ con altre tre cariche intorno (chiamate con molta fantasia $q_2$ $q_3$ $q_4$), in cui la forza totale farà
+%qui magari poi potresti mettere la parte in cui semplifichi le formule per la forza dalle singole cariche e fai vedere che bla bla bla t'ha capito
+\begin{align*}
+  \overrightarrow{F_{tot}} &= k_0 q_1 + \frac{q_2}{(r_{2,1})^2}\overrightarrow{r_{2,1}}
+                                      + k_0 q_1 + \frac{q_3}{(r_{3,1})^2}\overrightarrow{r_{3,1}}
+                                      + k_0 q_1 + \frac{q_4}{(r_{4,1})^2}\overrightarrow{r_{4,1}} \\
+                           &= k_0 q_1 + (\frac{q_2}{(r_{2,1})^2}\overrightarrow{r_{2,1}}
+                                      +  \frac{q_2}{(r_{3,1})^2}\overrightarrow{r_{3,1}}
+                                      +  \frac{q_2}{(r_{4,1})^2}\overrightarrow{r_{4,1}})
+\end{align*}
+
+questa cosa si può estendere a una qualsiasi distribuzione di tot cariche $q_1$,$q_2$,...,$q_{tot}$ che agiscono su, facciamo, $q_0$, in questo caso la forza totale sarà
+
+\begin{equation*}
+  \overrightarrow{F_{tot}} = k_0 q_0 \sum_{i = 1}^{tot} \frac{q_i}{(r_{i,0})^2}
+\end{equation*}
+
+andando nel caso continuo fai tendere tutto a un infinito e/o un infinitesimo finchè non arrivi alla stessa cazzo di formula se non che c'è un integrale
+
+\begin{equation*}
+  \overrightarrow{F_{tot}} = k_0 q_0 \int_{\tau} \frac{q}{(r_{i,0})^2}
+\end{equation*}
+
+\end{document}

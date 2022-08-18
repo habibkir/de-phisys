@@ -1,0 +1,83 @@
+* Legge di Ampere
+legge fondamentale della magnetostatica
+es. legge di Gauss più universale per il campo
+elettrico di altre ,e permette di calcolarlo con meno
+sbatti.
+
+Legge di Ampere per la circutazione del campo
+magnetico
+La circuitazine del campo magnetico è un integrale di
+linea chiuso del campo magnetico lungo un certo verso
+di percorrenza.
+
+se ricordate il campo magentico aveva circuitazione
+nulla, e la cosa indicava che il campo elettrico aveva
+linee di forza radiali, il campo magnetico ha linee di
+forza più circolari.
+
+Nel campo magnetico se stai fuori hai un pezzo che si
+compensa con un altro, quindi la circuitazione se non
+hai correnti concatenate sarà nulla.
+
+Se hai campo magnetico di carica concatenata invece
+radiale un cazzo, quindi circuitazione non nulla.
+
+Se non hai correnti concatenate allora hai come in
+gauss che la circuitazione in una parte del circuito
+si annulla con quella da un'altra parte del circuito e
+tutto fa 0 e vissero tutti felici e contenti e amen
+
+* Teorema di stokes
+
+la circuitazione su un circuito è pari al flusso del
+rotore di B su una superficie aperta il cui controrno
+sia delimitato dal circuito
+
+
+** Saggezza del del Zanna
+
+come al solito ho saltato tutte le parti delle
+proprietà magnetiche, che sarebbbero
+interessantissime, specie i ferromagneti, quidni se vi
+capita mettete solo un \mu al posto di \mu _0
+
+* Legge di Faraday
+** Historia
+Sembra che l'unica connessione tra elettrostatica e
+magnetismo sia il fatto che riguradano entrabi
+cariche, ma si è scoperto alla neonataggine, con Faraday
+ma lo sta spiegando adesso per qualche cazzo di motivo
+
+\[\frac{1}{\epsilon _0 \mu _0} = C^2\]
+quindi la luce è un'onda elettromagnetica
+
+se abbandoniamo l'idea di essere in statica succede
+qualcosa con le onde
+
+la legge di Faraday lega il muovimento di una calamita
+intorno vicino a un circuito con elettricità in quel
+circuito. altrimento puoi spegnere e riaccendere la
+corrente in un solenoide e hai un'effetto simile
+
+quindi se hai variazioni nel tempo (derivata incoming)
+di campo magnetico portano a corrente
+
+la cosa funzionerebbe anche se allargassi o
+restringessi la superficie del circuito per cui sta
+andando il campo magnetico (derivata del flusso
+incoming).
+** Formula
+hai \[
+fem = -\frac{d \Phi (\overrightarrow{B})}{dt}
+\]
+
+il - "serve a evitare" di avere una macchina a energia
+infinita, se non ci fosse quel - sarebbero violate
+molte, molte leggi della fisica, perchè potrei causare
+un aumento della corrente che causerebbe un altro
+aumento della corrente che causerebbe un altro...
+** Lenz salvator mundi
+visto che muovere una calamita intorno a un circuito
+non provoca bombe nucleari si può intuire che dovrebbe
+starci quel -
+** Variazione di circuito invece che di campo
